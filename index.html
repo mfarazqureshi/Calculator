@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <h1 >
+        Simple Calculator <br>
+        
+    </h1>
+
+    <div class="main">
+        <div>
+            <input id="result" class="result" type="text" placeholder="0">
+        </div>
+        <div>
+            <button class="btn1" onclick="getdlt ()"><h3>DEL</h3></button>
+            <button class="btn1" onclick="getresultinv ()"><h3>1/X</h3></button>
+            <button class="btn1" onclick="getresultsqr_root ()">&#x221A;</button>
+            <button class="btn1" onclick="clrresult ('0')" placeholder="0"><h3>AC</h3></button>
+
+        </div>
+        <div>
+                <button class="btn" onclick="getnumber ('7')"><h3>7</h3></button>
+                <button class="btn" onclick="getnumber ('8')"><h3>8</h3></button>
+                <button class="btn" onclick="getnumber ('9')"><h3>9</h3></button>
+                <button class="btn" onclick="getresultsqr ()"><h3>X<sup>2</sup></h3></button>
+                <button class="btn" onclick="getresultcube ()"><h3>X<sup>3</h3></sup></button>
+                
+        </div>
+        <div>
+            <button class="btn" onclick="getnumber ('4')"><h3>4</h3></button>
+            <button class="btn" onclick="getnumber ('5')"><h3>5</h3></button>
+            <button class="btn" onclick="getnumber ('6')"><h3>6</h3></button>
+            <button class="btn" onclick="getnumber ('*')"><h3>x</h3></button>
+            <button class="btn" onclick="getnumber ('/')"><h3>&#247</h3></button>
+        </div>
+        <div>
+            <button class="btn" onclick="getnumber ('1')"><h3>1</h3></button>
+            <button class="btn" onclick="getnumber ('2')"><h3>2</h3></button>
+            <button class="btn" onclick="getnumber ('3')"><h3>3</h3></button>
+            <button class="btn" onclick="getnumber ('+')"><h3>+</h3></button>
+            <button class="btn" onclick="getnumber ('-')"><h3>-</h3></button>
+        </div>
+        <div>
+            <button class="btn" onclick="getnumber ('.')"><h3>.</h3></button>
+            <button class="btn" onclick="getnumber ('0')"><h3>0</h3></button>
+            <button class="btn" onclick="getnumber ('22/7')"><h3>π</h3></button>
+            <button class="halfbtn" onclick="getresult()"><h3>=</h3></button>
+        </div>
+
+    </div>
+
+
+</body>
+<script src="app.js"></script>
+</html>
